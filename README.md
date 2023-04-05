@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/thatsR/FM-3-column-preview-card-component.git
-- Live Site URL: 
+- Live Site URL: https://thatsr.github.io/FM-3-column-preview-card-component/
 
 ## My process
 
