@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  min-height: 100%;
+  background-color: hsl(0, 0%, 95%);
+}
+body main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+body main .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 306px;
+  height: 500px;
+  padding: 50px;
+}
+body main .card h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+body main .card p {
+  position: relative;
+  bottom: 30px;
+  color: hsla(0, 0%, 100%, 0.6);
+  line-height: 1.6rem;
+}
+body main .card a {
+  background-color: white;
+  text-decoration: none;
+  width: 140px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 13px;
+}
+body main .card a:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+body main .card-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+body main .card-1 a {
+  color: hsl(31, 77%, 52%);
+}
+body main .card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+body main .card-2 a {
+  color: hsl(184, 100%, 22%);
+}
+body main .card-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+body main .card-3 a {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 956px) {
+  body main .card-2 {
+    border-radius: 0 10px 10px 0;
+  }
+  body main .card-3 {
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  body main .card-1 {
+    border-radius: 10px 10px 0 0;
+  }
+  body main .card-2 {
+    border-radius: 0;
+  }
+  body main .card-3 {
+    border-radius: 0 0 10px 10px;
+  }
+}/*# sourceMappingURL=styles.css.map */
